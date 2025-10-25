@@ -1,0 +1,52 @@
+{
+  "hosts": {
+    "pc1": { "connected": ["D"], "gateway": "router1" },
+    "pc2": { "connected": ["E"], "gateway": "router2" },
+    "pc3": { "connected": ["F"], "gateway": "router3" },
+    "pc4": { "connected": ["G"], "gateway": "router4" }
+  },
+  "routers": {
+    "router1": {
+      "connected": ["D", "A", "C"],
+      "routes": [
+        { "router": "router2", "destNetwork": "E" },
+        { "router": "router2", "destNetwork": "F" }
+      ]
+    },
+    "router2": {
+      "connected": ["E", "A", "B"],
+      "routes": [
+        { "router": "router3", "destNetwork": "F" },
+        { "router": "router3", "destNetwork": "D" },
+        { "router": "router3", "destNetwork": "G" }
+      ]
+    },
+    "router3": {
+      "connected": ["F", "C", "B", "H"],
+      "routes": [
+        { "router": "router1", "destNetwork": "D" },
+        { "router": "router1", "destNetwork": "E" },
+        { "router": "router4", "destNetwork": "G" }
+      ]
+    },
+    "router4": {
+      "connected": ["G", "H"],
+      "routes": [
+        { "router": "router3", "destNetwork": "D" },
+        { "router": "router3", "destNetwork": "E" },
+        { "router": "router3", "destNetwork": "F" }
+      ]
+    },
+    "router5": { "connected": [], "routes": [] }
+  },
+  "networks": {
+    "A": { "network": "192.168.1.0/24" },
+    "B": { "network": "192.168.2.0/24" },
+    "C": { "network": "192.168.3.0/24" },
+    "D": { "network": "192.168.10.0/24" },
+    "E": { "network": "192.168.20.0/24" },
+    "F": { "network": "192.168.30.0/24" },
+    "G": { "network": "192.168.40.0/24" },
+    "H": { "network": "192.168.4.0/24" }
+  }
+}
