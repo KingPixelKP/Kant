@@ -1,3 +1,5 @@
 *.startup
 lab.conf
 config copy.json
+.idea*
+__*
