@@ -6,7 +6,27 @@ class Node:
 
     def __init__(self, name, connections):
         self.name = name
-        self.connections = connections
+        self.connections : list = connections
+        
+    def has_connection(self, con_name):
+        try:
+            self.connections.index(con_name)
+            return True
+        except Exception:
+            return False
+        
+    def add_connection(self, con_name):
+        if self.has_connection(con_name):
+            raise ValueError("Connection already existent")
+        
+        self.connections.append(con_name)
+        
+    def remove_connection(self, con_name):
+        if not self.has_connection(con_name):
+            raise ValueError("Connection does not exist")
+        
+        self.connections.append(con_name)
+    
 
 
 class Host(Node):

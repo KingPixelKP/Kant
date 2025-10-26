@@ -7,6 +7,29 @@ from commands import *
 from system import System
 
 
+HELP = """WRITE KATHARA -> Write Kathara configs
+WRITE CONFIG -> Write the json config file
+ADD NET -> Add a network/connection
+RM NET -> Remove a network/connection
+ADD HOST -> Add a host TODO
+RM HOST -> Remove a host TODO
+ADD ROUTER -> Add a router
+RM ROUTER -> Remove a router
+ADD ROUTE -> Add a route to a router
+RM ROUTE -> Remove a route from a router
+ADD CONH -> Add a connection to a host
+RM CONH -> Remove a connection to a host
+ADD CONR -> Add a connection to a router
+RM CONR -> Remove a connection to a router
+
+UNDO -> Undo last action
+REDO -> Redo last undone action
+
+HELP -> Show this menu
+
+EXIT -> Exit program
+SEXIT -> Write config file and exit program
+"""
 
 
 def main():
@@ -52,10 +75,26 @@ def main():
                              input("Connection Name>>>>"))
                 invoker.add_command(c)
                 invoker.execute_top()
-            elif cmd == "ADD CON":
-                ...
-            elif cmd == "RM CON":
-                ...
+            elif cmd == "ADD CONH":
+                c = AddConnectionHost(system, input("Host Name>>>>"),
+                                      input("Connection Name>>>"))
+                invoker.add_command(c)
+                invoker.execute_top()
+            elif cmd == "RM CONH":
+                c = RemoveConnectionHost(system, input("Host Name>>>>"),
+                                      input("Connection Name>>>"))
+                invoker.add_command(c)
+                invoker.execute_top()
+            elif cmd == "ADD CONR":
+                c = AddConnectionRouter(system, input("Router Name>>>>"),
+                                      input("Connection Name>>>"))
+                invoker.add_command(c)
+                invoker.execute_top()
+            elif cmd == "RM CONR":
+                c = RemoveConnectionRouter(system, input("Router Name>>>>"),
+                                      input("Connection Name>>>"))
+                invoker.add_command(c)
+                invoker.execute_top()
             elif cmd == "EXIT":
                 break
             elif cmd == "SEXIT":
@@ -64,7 +103,7 @@ def main():
                 invoker.execute_top()
                 break
             elif cmd == "HELP":
-                ...
+                print(HELP)
             elif cmd == "PRINT":
                 ...
             elif cmd == "UNDO":

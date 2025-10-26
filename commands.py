@@ -121,7 +121,49 @@ class RemoveRoute(Command):
         
     def execute(self):
         self.system.remove_route(self.name, self.via, self.con_name)
+
+class AddConnectionHost(Command):
+    def __init__(self, system, name, con_name):
+        self.system = system
+        self.name = name
+        self.con_name = con_name
+        super().__init__()
         
+    def execute(self):
+        self.system.add_connection_host(self.name, self.con_name)
+        
+class AddConnectionRouter(Command):
+    def __init__(self, system, name, con_name):
+        self.system = system
+        self.name = name
+        self.con_name = con_name
+        super().__init__()
+        
+    def execute(self):
+        self.system.add_connection_router(self.name, self.con_name)
+        
+ 
+class RemoveConnectionHost(Command):
+    def __init__(self, system, name, con_name):
+        self.system = system
+        self.name = name
+        self.con_name = con_name
+        super().__init__()
+        
+    def execute(self):
+        self.system.remove_connection_host(self.name, self.con_name)
+        
+class RemoveConnectionRouter(Command):
+    def __init__(self, system, name, con_name):
+        self.system = system
+        self.name = name
+        self.con_name = con_name
+        super().__init__()
+        
+    def execute(self):
+        self.system.remove_connection_router(self.name, self.con_name)
+               
+
 
 class Invoker:
     def __init__(self):

@@ -172,6 +172,12 @@ class System:
     def has_router(self, name) -> bool:
         return self.get_router(name) is not None
     
+    def get_host(self, name) -> Host:
+        return self.hosts.get(name)
+    
+    def has_host(self, name) -> bool:
+        return self.get_host(name) is not None
+    
     def add_router(self, name, connections = [], routes = []):
         if self.has_router(name):
             raise ValueError("Router already exists")
@@ -187,6 +193,10 @@ class System:
     def add_route(self, name, via, con_name):
         if not self.has_router(name):
             raise ValueError("Router does not exist")
+        if not self.has_router(via):
+            raise ValueError("Via router does not exist")
+        if not self.has_connection(con_name):
+            raise ValueError("Connection does not exist")
         
         router = self.get_router(name)
         router.add_route(via, con_name)
@@ -194,7 +204,47 @@ class System:
     def remove_route(self, name, via, con_name):
         if not self.has_router(name):
             raise ValueError("Router does not exist")
+        if not self.has_router(via):
+            raise ValueError("Via router does not exist")
+        if not self.has_connection(con_name):
+            raise ValueError("Connection does not exist")
         
         router = self.get_router(name)
         router.remove_route(via, con_name)
         
+    def add_connection_host(self, name, con_name):
+        if not self.has_host(name):    
+            raise ValueError("Host does not exist")
+        if not self.has_connection(con_name):
+            raise ValueError("Connection does not exist")
+        
+        host = self.get_host(name)
+        host.add_connection(con_name)
+        
+    def add_connection_router(self, name, con_name):
+        if not self.has_router(name):
+            raise ValueError("Router does not exist")
+        if not self.has_connection(con_name):
+            raise ValueError("Connection does not exist")
+        
+        router = self.get_router(name)
+        router.add_connection(con_name)
+    
+    def remove_connection_host(self, name, con_name):
+        if not self.has_host(name):    
+            raise ValueError("Host does not exist")
+        if not self.has_connection(con_name):
+            raise ValueError("Connection does not exist")
+        
+        host = self.get_host(name)
+        host.remove_connection(con_name)
+        
+    def remove_connection_router(self, name, con_name):
+        if not self.has_router(name):
+            raise ValueError("Router does not exist")
+        if not self.has_connection(con_name):
+            raise ValueError("Connection does not exist")
+        
+        router = self.get_router(name)
+        router.remove_connection(con_name)
+    

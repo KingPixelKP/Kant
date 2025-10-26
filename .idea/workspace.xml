@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19d4a433-8802-4dfe-ba06-cab594b75b63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../es26/Projects/ExLab06/src/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../es26/Projects/ExLab06/src/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../es26/Projects/ExLab06/src/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../es26/Projects/ExLab06/src/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../es26/Projects/ExLab06/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../es26/Projects/ExLab06/src/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../es26/Projects/ExLab06/src/PollutantEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../es26/Projects/ExLab06/src/PollutantInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../es26/Projects/ExLab06/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../es26/Projects/ExLab06/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../es26/Projects/ExLab06/src/Statistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../es26/Projects/ExLab06Proj/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.obsidian/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/appearance.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.obsidian/appearance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/community-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.obsidian/community-plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/core-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.obsidian/core-plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.obsidian/graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/plugins/obsidian-excalidraw-plugin/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.obsidian/plugins/obsidian-excalidraw-plugin/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/plugins/obsidian-excalidraw-plugin/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.obsidian/plugins/obsidian-excalidraw-plugin/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/plugins/obsidian-excalidraw-plugin/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.obsidian/plugins/obsidian-excalidraw-plugin/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/plugins/obsidian-excalidraw-plugin/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.obsidian/plugins/obsidian-excalidraw-plugin/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/plugins/pdf-plus/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/plugins/pdf-plus/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/plugins/pdf-plus/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/types.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.obsidian/types.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/workspace-mobile.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.obsidian/workspace-mobile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/workspace-mobile.sync-conflict-20250510-131511-GFE6C6X.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/workspace-mobile.sync-conflict-20250510-131513-GFE6C6X.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/workspace-mobile.sync-conflict-20250512-211700-GFE6C6X.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/workspace-mobile.sync-conflict-20250512-211701-GFE6C6X.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/workspace-mobile.sync-conflict-20250516-181935-GFE6C6X.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/workspace-mobile.sync-conflict-20250516-181950-GFE6C6X.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/workspace-mobile.sync-conflict-20250523-081723-TB7UXQY.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/workspace-mobile.sync-conflict-20250523-081724-TB7UXQY.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/workspace-mobile.sync-conflict-20250524-165813-ENVHFYM.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/workspace-mobile.sync-conflict-20250525-190241-GFE6C6X.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/workspace-mobile.sync-conflict-20250525-190533-GFE6C6X.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../999 MISC/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../999 MISC/TODO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/BD2025Fase2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Class/aula10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Class/aula11.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Class/aula12(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Class/aula13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Class/aula14.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Class/aula15.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Class/aula16.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Class/aula17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Class/aula7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Class/aula8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Class/aula9.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/Ficha6Oracle.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/Ficha6Oracle/Tutorial APEX - Request Workspace.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/Ficha6Oracle/__MACOSX/._Tutorial APEX - Request Workspace.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/Ficha6Oracle/__MACOSX/._aula6FOracle.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/Ficha6Oracle/__MACOSX/._ficha6Oracle.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/Ficha6Oracle/aula6FOracle.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/Ficha6Oracle/ficha6Oracle.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/dingus.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ex4.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ex5.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ex8-2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ex8.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises3/__MACOSX/._applicationsER.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises3/__MACOSX/._applicationsTables.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises3/__MACOSX/._exercises3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises3/__MACOSX/._results3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises3/__MACOSX/p07-2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises3/applicationsER.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises3/applicationsTables.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises3/exercises3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises3/results3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises5.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises5/__MACOSX/._createRegistrations.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises5/__MACOSX/._exercises5.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises5/__MACOSX/._insertClasses.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises5/createRegistrations.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises5/exercises5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises5/exercises5.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises5/insertClasses.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/exercises8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ficha3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ficha3/__MACOSX/._candidaturasER.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ficha3/__MACOSX/._ficha3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ficha3/__MACOSX/._resultados3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ficha3/__MACOSX/._tabelasCandidaturas.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ficha3/candidaturasER.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ficha3/ficha3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ficha3/resultados3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ficha3/tabelasCandidaturas.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ficha4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ficha4/__MACOSX/._ficha4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ficha4/__MACOSX/._resultados4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ficha4/ficha4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ficha4/resultados4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/ficha7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/history.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/password.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/projeto.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/projeto.drawio-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/projeto.drawio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/resultsBD.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/salasTeste1.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/sol3.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/sol4.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/Practical/sql1.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/ProjetComplet/complete.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/T2/teste-2-2022-23.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/T2/teste-2-2023-24.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bd2025/T2/teste02_jun2019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cgi26/Graphics Pipelibe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cgi26/P1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cgi26/T1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cgi26/T2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cgi26/T3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cgi26/T4.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cgi26/T5.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cgi26/T6.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cgi26/cgi-25-26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cgi26/computer_graphics_principles_and_practice.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cgi26/teste_1A.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../cgi26/webgl-reference-card-1_0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/P1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/searchalgorithm/AStarSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/searchalgorithm/Algorithms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/searchalgorithm/BreadthFirstSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/searchalgorithm/DepthFirstSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/searchalgorithm/GraphSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/searchalgorithm/GreedySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/searchalgorithm/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/searchalgorithm/SearchAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/searchalgorithm/UniformCostSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/searchproblem/Arc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/searchproblem/SearchProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/searchproblem/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/undirectedgraph/Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/undirectedgraph/Graph$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/undirectedgraph/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/undirectedgraph/Romenia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/undirectedgraph/Vertex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/out/production/P1/undirectedgraph/VertexSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/searchalgorithm/AStarSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/searchalgorithm/Algorithms.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/searchalgorithm/BreadthFirstSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/searchalgorithm/DepthFirstSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/searchalgorithm/GraphSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/searchalgorithm/GreedySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/searchalgorithm/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/searchalgorithm/SearchAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/searchalgorithm/UniformCostSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/searchproblem/Arc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/searchproblem/SearchProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/searchproblem/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/undirectedgraph/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/undirectedgraph/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/undirectedgraph/Romenia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/undirectedgraph/Vertex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P1/src/undirectedgraph/VertexSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ia26/Projects/P2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/P1/Drawing 2025-04-24 11.51.36.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/P1/P1 Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/P1/project-1-darts-problem-KingPixelKP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/P2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/.ipynb_checkpoints/lab3_typeinf_comp_corr_inductive-checkpoint.1ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/.ipynb_checkpoints/lab3_typeinf_comp_corr_inductive-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/.ipynb_checkpoints/lab3_typeinf_comp_corr_inductive1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/3.14Exercicios.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/HP_Prime_Connectivity_Kit_x64_20250131_msi/HP_Prime_Connectivity_Kit_x64_20250131.msi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/HP_Prime_Connectivity_Kit_x64_20250131_msi/VC_redist.x64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/aula10(1).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/aula9(1).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/dingus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/lab2_basic_functions(1).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/lab2_io_unit_rec(2).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/lab3_typeinf_comp_corr_inductive(1).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/lab3_typeinf_comp_corr_inductive.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/lab3_typeinf_comp_corr_inductive1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/lab4_prod_sum_types_recs_lists(1).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/lab4_prod_sum_types_recs_lists.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/lab5_comb_higer_order_fun(1).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/lab5_comb_higer_order_fun.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/lab8_pairing_heap_HO.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/lab9.ml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/lab9_functor_pairing_heap.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/pairing_heap.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/primeiro teste resolvido.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/t.hpprgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/t1-2324-solutions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/t1-2324.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/task1test.ml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/task2test.ml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/test.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/teste_modelo.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/teste_modelo_2324(2).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/teste_modelo_2324.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/tests.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Pratical/tests.ml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/T2/mock segundo teste.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/T2/segundo teste resolvido.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/T2/test_en.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/T2/test_en.ml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/T2/teste_en.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/Tests/P1Tests.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lap2025/book/HighOrder.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Class/Tp13.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Class/Tp15.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Class/Tp16.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Exercicios_Estatistica_2025_25_PED-Copy (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Exercicios_Estatistica_2025_25_PED.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Exercicios_Probabilidades_2024_25_PED.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Formulario.odp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Formulario.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Resumo Global.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Resumo Global.sync-conflict-20250516-181928-C25SCGN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Resumo Global.sync-conflict-20250516-181937-C25SCGN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Slides_Estatistica_PED_2425.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Slides_Probabilidades_PED_2425.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Testes/Testes e Exames Resolvidos para PE.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Testes/a(2).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Testes/teste01_abr2018.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/Testes/testes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ped2025/c05332710(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/Internet Architecture TCP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/Link Layer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/Performance.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/RC26-TPC1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/T1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/T2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/T3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/T4.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/T5.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/book.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/computer-networking-a-top-down-approach-8th-edition.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab01/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab01/UDP Points.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab01/UDP_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab01/UDP_integer-client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab01/UDP_integer-server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab01/UDP_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab01_files/lab01 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab01_files/lab01-slides.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab01_files/lab01.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab02_files/Sockets-TCP-Python.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab02_files/code_examples/TCP_File_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab02_files/code_examples/TCP_File_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab02_files/code_examples/TCP_INT_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab02_files/code_examples/TCP_INT_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab02_files/code_examples/TCPclient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab02_files/code_examples/TCPserver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab02_files/code_examples/cmd_line.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab02_files/code_examples/fileCopy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab02_files/code_examples/megaFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab02_files/code_examples/myFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab02_files/code_examples/myFile2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab02_files/code_examples/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab02_files/lab02.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab03_files/code_aux/getDirFiles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab03_files/code_aux/keyboardInterrupt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/lab03_files/lab03_TPC1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rc26/net-intro.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Class/T13.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Class/T14.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Class/T15.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Class/T16.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Class/T17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Ppt/p04 (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Ppt/p04 (2).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Ppt/p05 (1) (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Ppt/p05 (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Ppt/p06 (1) (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Ppt/p06 (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Ppt/p07-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Ppt/p07-2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Ppt/p08.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Ppt/p09 (1)-Copy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Ppt/p09 (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Ppt/p09.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Ppt/p10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/T2/Dingus.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/T2/MT2_A_20212022_Corrigido.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/T2/Teste2 - 2018.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/T2/Teste2 - 2021-Copy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/T2/Teste2 - 2021.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/T2/Teste2 - 2023.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/T2/a(4) (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/T2/a(4) 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/T2/a(4).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/T2/a(5).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/T2/p04(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/T2/p05(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/T2/p06(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/T2/p07-1(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/T2/teste2-20202021.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tc2025/Tools.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../uni/999 MISC/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../uni/999 MISC/TODO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../uni/lap2025/P1/P1 Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../uni/lap2025/P1/P1 Notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../uni/ped2025/Class/Tp13.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../uni/ped2025/Class/Tp13.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../uni/ped2025/Resumo Global.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../uni/ped2025/Resumo Global.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../uni/ped2025/Resumo Global.sync-conflict-20250516-181928-C25SCGN.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../uni/ped2025/Resumo Global.sync-conflict-20250516-181928-C25SCGN.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../uni/ped2025/Resumo Global.sync-conflict-20250516-181937-C25SCGN.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../uni/ped2025/Resumo Global.sync-conflict-20250516-181937-C25SCGN.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="34ZBpYqZHD9gR9YKGlePx5BXRPk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Kant.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/kpgm/uni/26/rc26/Kant/main.py"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Kant" type="PythonConfigurationType" factoryName="Python">
+      <module name="Kant" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19d4a433-8802-4dfe-ba06-cab594b75b63" name="Changes" comment="" />
+      <created>1761411397587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761411397587</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
